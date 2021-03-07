@@ -1,12 +1,8 @@
 import React from 'react';
+import movies from '../data';
 import Rating from './Rating';
-// import img1 from '../../public/images/Appleseed_Alpha.jpg';
 
 class MovieCard extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
-
   render() {
     return (
       <div>
@@ -14,7 +10,7 @@ class MovieCard extends React.Component {
         <h4>Movie Title 1</h4>
         <h5>Movie Subtitle 1</h5>
         <p>Movie Storyline 1</p>
-        <Rating className="rating" rating={ 4.5 } />
+        <Rating rating={ movies[0].rating } />
       </div>
     );
   }
