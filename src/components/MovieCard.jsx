@@ -1,5 +1,5 @@
 import React from 'react';
-import movies from '../data';
+// import movies from '../data';
 import Rating from './Rating';
 
 class MovieCard extends React.Component {
@@ -10,7 +10,7 @@ class MovieCard extends React.Component {
         <h4>Movie Title 1</h4>
         <h5>Movie Subtitle 1</h5>
         <p>Movie Storyline 1</p>
-        <Rating rating={ movies[0].rating } />
+        <Rating rating={ 4.5 } />
       </div>
     );
   }
